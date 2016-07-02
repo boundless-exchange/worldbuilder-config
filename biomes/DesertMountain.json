@@ -3,13 +3,12 @@
    "@configType" : "BIOME",
    "@name" : "Desert Mountain",
    "@position" : [ 7932, 8160 ],
-   "@scroll" : [ 9643.080078125, 7518.6357421875, 2 ],
+   "@scroll" : [ 9384.2841796875, 9296.6767578125, 0.5 ],
    "@toggle-test" : false,
    "@toggle-world" : true,
    "@unlinked" : [],
-   "@version" : 6,
+   "@version" : 7,
    "biome" : {
-      "@version" : 6,
       "fun" : {
          "@collapsed" : false,
          "@name" : "Desert Mountain",
@@ -102,7 +101,7 @@
                "offset" : [ 914.44915771484375, 61.933738708496094, -212.86979675292969 ],
                "offset-hash" : "qa7nZC0qBz8EdArb",
                "reference" : "noise3d/DistortionStandard.json",
-               "tick" : 2,
+               "tick" : 3,
                "type" : "reference"
             },
             "distortionStrength" : {
@@ -202,7 +201,7 @@
                         "@position" : [ 9990, 7069 ],
                         "frequency" : [ 1, 1 ],
                         "links" : [],
-                        "offset" : [ 45.233844757080078, -296.43533325195313 ],
+                        "offset" : [ 45.233844757080078, -296.43533325195312 ],
                         "offset-hash" : "6MxEta9EvkWC1cb7",
                         "reference" : "noise2d/HeightmapBumpy.json",
                         "tick" : 0,
@@ -395,13 +394,13 @@
                                  "octaves" : [
                                     {
                                        "multiplier" : 0.69999998807907104,
-                                       "offset" : [ 431.04299926757813, 123 ],
+                                       "offset" : [ 431.04299926757812, 123 ],
                                        "offset-hash" : "VzbEZj4UASXUHTsu",
                                        "scale" : 1
                                     },
                                     {
                                        "multiplier" : 0.30000001192092896,
-                                       "offset" : [ 121.04299926757813, 173 ],
+                                       "offset" : [ 121.04299926757812, 173 ],
                                        "offset-hash" : "9AE0Kc69BlHLhF3D",
                                        "scale" : 2
                                     }
@@ -1141,13 +1140,13 @@
                                  "octaves" : [
                                     {
                                        "multiplier" : 0.69999998807907104,
-                                       "offset" : [ 431.04299926757813, 123 ],
+                                       "offset" : [ 431.04299926757812, 123 ],
                                        "offset-hash" : "YnovMneq5mhbeY6a",
                                        "scale" : 1
                                     },
                                     {
                                        "multiplier" : 0.30000001192092896,
-                                       "offset" : [ 121.04299926757813, 173 ],
+                                       "offset" : [ 121.04299926757812, 173 ],
                                        "offset-hash" : "xq9jO0NbCyCoUuUS",
                                        "scale" : 2
                                     }
@@ -1613,13 +1612,13 @@
                                  "octaves" : [
                                     {
                                        "multiplier" : 0.69999998807907104,
-                                       "offset" : [ 431.04299926757813, 123 ],
+                                       "offset" : [ 431.04299926757812, 123 ],
                                        "offset-hash" : "F3qyoBVlPYT2xGsz",
                                        "scale" : 1
                                     },
                                     {
                                        "multiplier" : 0.30000001192092896,
-                                       "offset" : [ 121.04299926757813, 173 ],
+                                       "offset" : [ 121.04299926757812, 173 ],
                                        "offset-hash" : "b0Bb6fTfxioA5cPo",
                                        "scale" : 2
                                     }
@@ -1742,9 +1741,10 @@
       "links" : []
    },
    "generator" : {
+      "@version" : 6,
       "biomeSize" : 8,
       "lowerSea" : {
-         "level" : 16,
+         "level" : 0,
          "liquidType" : "WATER"
       },
       "sea" : {
@@ -1794,9 +1794,8 @@
          "@position" : [ 7932, 8160 ],
          "@toggle-test" : false,
          "@toggle-world" : true,
-         "@version" : 6,
+         "@version" : 7,
          "biome" : {
-            "@version" : 6,
             "fun" : {
                "@collapsed" : false,
                "@name" : "Desert Mountain",
@@ -1889,7 +1888,7 @@
                      "offset" : [ 914.44915771484375, 61.933738708496094, -212.86979675292969 ],
                      "offset-hash" : "qa7nZC0qBz8EdArb",
                      "reference" : "noise3d/DistortionStandard.json",
-                     "tick" : 2,
+                     "tick" : 3,
                      "type" : "reference"
                   },
                   "distortionStrength" : {
@@ -1989,7 +1988,7 @@
                               "@position" : [ 9990, 7069 ],
                               "frequency" : [ 1, 1 ],
                               "links" : [],
-                              "offset" : [ 45.233844757080078, -296.43533325195313 ],
+                              "offset" : [ 45.233844757080078, -296.43533325195312 ],
                               "offset-hash" : "6MxEta9EvkWC1cb7",
                               "reference" : "noise2d/HeightmapBumpy.json",
                               "tick" : 0,
@@ -2182,13 +2181,13 @@
                                        "octaves" : [
                                           {
                                              "multiplier" : 0.69999998807907104,
-                                             "offset" : [ 431.04299926757813, 123 ],
+                                             "offset" : [ 431.04299926757812, 123 ],
                                              "offset-hash" : "VzbEZj4UASXUHTsu",
                                              "scale" : 1
                                           },
                                           {
                                              "multiplier" : 0.30000001192092896,
-                                             "offset" : [ 121.04299926757813, 173 ],
+                                             "offset" : [ 121.04299926757812, 173 ],
                                              "offset-hash" : "9AE0Kc69BlHLhF3D",
                                              "scale" : 2
                                           }
@@ -2928,13 +2927,13 @@
                                        "octaves" : [
                                           {
                                              "multiplier" : 0.69999998807907104,
-                                             "offset" : [ 431.04299926757813, 123 ],
+                                             "offset" : [ 431.04299926757812, 123 ],
                                              "offset-hash" : "YnovMneq5mhbeY6a",
                                              "scale" : 1
                                           },
                                           {
                                              "multiplier" : 0.30000001192092896,
-                                             "offset" : [ 121.04299926757813, 173 ],
+                                             "offset" : [ 121.04299926757812, 173 ],
                                              "offset-hash" : "xq9jO0NbCyCoUuUS",
                                              "scale" : 2
                                           }
@@ -3400,13 +3399,13 @@
                                        "octaves" : [
                                           {
                                              "multiplier" : 0.69999998807907104,
-                                             "offset" : [ 431.04299926757813, 123 ],
+                                             "offset" : [ 431.04299926757812, 123 ],
                                              "offset-hash" : "F3qyoBVlPYT2xGsz",
                                              "scale" : 1
                                           },
                                           {
                                              "multiplier" : 0.30000001192092896,
-                                             "offset" : [ 121.04299926757813, 173 ],
+                                             "offset" : [ 121.04299926757812, 173 ],
                                              "offset-hash" : "b0Bb6fTfxioA5cPo",
                                              "scale" : 2
                                           }
@@ -3529,9 +3528,10 @@
             "links" : []
          },
          "generator" : {
+            "@version" : 6,
             "biomeSize" : 8,
             "lowerSea" : {
-               "level" : 16,
+               "level" : 0,
                "liquidType" : "WATER"
             },
             "sea" : {

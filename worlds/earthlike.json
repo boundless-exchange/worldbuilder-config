@@ -3,7 +3,7 @@
    "@configType" : "WORLD",
    "@name" : "Unnamed World",
    "@position" : [ 1351, 7918 ],
-   "@scroll" : [ 1959.3040771484375, 8136.291015625, 0 ],
+   "@scroll" : [ 1920.3040771484375, 8171.6083984375, 0 ],
    "@unlinked" : [
       {
          "data" : {
@@ -179,7 +179,7 @@
          "nodeType" : "LT:NOISE_3D"
       }
    ],
-   "@version" : 6,
+   "@version" : 7,
    "beacons" : [],
    "generator" : {
       "@collapsed" : false,
@@ -197,7 +197,7 @@
             "@position" : [ 2146, 8396 ],
             "links" : [],
             "reference" : "biomes/BeachyOcean.json",
-            "tick" : 4,
+            "tick" : 5,
             "type" : "reference"
          },
          {
@@ -206,7 +206,7 @@
             "@position" : [ 2144, 8439 ],
             "links" : [],
             "reference" : "biomes/PleasantHills.json",
-            "tick" : 10,
+            "tick" : 11,
             "type" : "reference"
          },
          {
@@ -215,7 +215,7 @@
             "@position" : [ 2146, 8483 ],
             "links" : [],
             "reference" : "biomes/DesertMountain.json",
-            "tick" : 18,
+            "tick" : 19,
             "type" : "reference"
          },
          {
@@ -245,7 +245,7 @@
             "@name" : "Simplex 2D",
             "@position" : [ 2137, 8038 ],
             "frequency" : [ 0.020000001415610313, 0.020000001415610313 ],
-            "offset" : [ -257.23660278320313, -2.0670051574707031 ],
+            "offset" : [ -257.23660278320312, -2.0670051574707031 ],
             "offset-hash" : "cSeMklen4FiX7qcg",
             "type" : "simplex"
          },
@@ -263,7 +263,7 @@
             "@name" : "Simplex 2D",
             "@position" : [ 2135, 8125 ],
             "frequency" : [ 0.020000001415610313, 0.020000001415610313 ],
-            "offset" : [ 161.95925903320313, -77.05914306640625 ],
+            "offset" : [ 161.95925903320312, -77.05914306640625 ],
             "offset-hash" : "OHGmrsaFaEQUu3Wi",
             "type" : "simplex"
          }

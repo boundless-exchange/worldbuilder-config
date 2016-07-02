@@ -3,13 +3,12 @@
    "@configType" : "NOISE2D",
    "@name" : "Heightmap - Hilly",
    "@position" : [ 7916, 8153 ],
-   "@scroll" : [ 8239.6396484375, 8282.05859375, -0.5 ],
+   "@scroll" : [ 8240.3466796875, 8282.05859375, -0.5 ],
    "@toggle-test" : true,
    "@toggle-world" : true,
    "@unlinked" : [],
-   "@version" : 5,
+   "@version" : 7,
    "noise2d" : {
-      "@version" : 6,
       "fun" : {
          "@collapsed" : false,
          "@name" : "cell_samples noise (2D)",
@@ -67,6 +66,8 @@
       },
       "links" : [
          {
+            "blockConstraint" : 0,
+            "blockDefault" : "",
             "checkDefault" : false,
             "linkPath" : [
                {
@@ -92,6 +93,8 @@
             "sliderStep" : 0.0010000000474974513
          },
          {
+            "blockConstraint" : 0,
+            "blockDefault" : "",
             "checkDefault" : false,
             "linkPath" : [
                {
@@ -117,6 +120,8 @@
             "sliderStep" : 0.0010000000474974513
          },
          {
+            "blockConstraint" : 0,
+            "blockDefault" : "",
             "checkDefault" : false,
             "linkPath" : [
                {
@@ -153,7 +158,7 @@
    },
    "seed" : "I has a seed!",
    "sharedConfig" : {
-      "worldSize" : 128
+      "worldSize" : 192
    },
    "test" : {
       "@collapsed" : false,
@@ -166,9 +171,8 @@
          "@position" : [ 7916, 8153 ],
          "@toggle-test" : true,
          "@toggle-world" : true,
-         "@version" : 5,
+         "@version" : 7,
          "noise2d" : {
-            "@version" : 6,
             "fun" : {
                "@collapsed" : false,
                "@name" : "cell_samples noise (2D)",
@@ -226,6 +230,8 @@
             },
             "links" : [
                {
+                  "blockConstraint" : 0,
+                  "blockDefault" : "",
                   "checkDefault" : false,
                   "linkPath" : [
                      {
@@ -251,6 +257,8 @@
                   "sliderStep" : 0.0010000000474974513
                },
                {
+                  "blockConstraint" : 0,
+                  "blockDefault" : "",
                   "checkDefault" : false,
                   "linkPath" : [
                      {
@@ -276,6 +284,8 @@
                   "sliderStep" : 0.0010000000474974513
                },
                {
+                  "blockConstraint" : 0,
+                  "blockDefault" : "",
                   "checkDefault" : false,
                   "linkPath" : [
                      {
@@ -312,7 +322,7 @@
          },
          "seed" : "I has a seed!",
          "sharedConfig" : {
-            "worldSize" : 128
+            "worldSize" : 192
          },
          "test" : {
             "@collapsed" : false,

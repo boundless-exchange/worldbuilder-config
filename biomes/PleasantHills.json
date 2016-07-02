@@ -3,13 +3,12 @@
    "@configType" : "BIOME",
    "@name" : "Pleasant Hills",
    "@position" : [ 7932, 8160 ],
-   "@scroll" : [ 10307.3857421875, 5791.43408203125, 1.5 ],
+   "@scroll" : [ 8907.833984375, 9004.8408203125, 0 ],
    "@toggle-test" : false,
    "@toggle-world" : true,
    "@unlinked" : [],
-   "@version" : 6,
+   "@version" : 7,
    "biome" : {
-      "@version" : 6,
       "fun" : {
          "@collapsed" : false,
          "@name" : "Pleasent Hills",
@@ -32,8 +31,8 @@
             "@toggle-stage" : true,
             "@toggle-threed" : false,
             "@toggle-visualise" : true,
-            "@x-name" : "altitude",
-            "@y-name" : "vegetation",
+            "@x-name" : "vegetation",
+            "@y-name" : "altitude",
             "caveSurfaceShrink" : {
                "enabled" : false,
                "value" : 0
@@ -102,7 +101,7 @@
                "offset" : [ -230.49079895019531, 224.81109619140625, -315.7552490234375 ],
                "offset-hash" : "2BFj2NJGRLCop2yR",
                "reference" : "noise3d/DistortionStandard.json",
-               "tick" : 1,
+               "tick" : 2,
                "type" : "reference"
             },
             "distortionStrength" : {
@@ -584,13 +583,13 @@
                                  "octaves" : [
                                     {
                                        "multiplier" : 0.69999998807907104,
-                                       "offset" : [ 431.04299926757813, 123 ],
+                                       "offset" : [ 431.04299926757812, 123 ],
                                        "offset-hash" : "wg0zL6YmUwditjpL",
                                        "scale" : 1
                                     },
                                     {
                                        "multiplier" : 0.30000001192092896,
-                                       "offset" : [ 121.04299926757813, 173 ],
+                                       "offset" : [ 121.04299926757812, 173 ],
                                        "offset-hash" : "QoqIJ55KQDmt5pbl",
                                        "scale" : 2
                                     }
@@ -1389,13 +1388,13 @@
                                  "octaves" : [
                                     {
                                        "multiplier" : 0.69999998807907104,
-                                       "offset" : [ 431.04299926757813, 123 ],
+                                       "offset" : [ 431.04299926757812, 123 ],
                                        "offset-hash" : "4koqJNASyUcebrjd",
                                        "scale" : 1
                                     },
                                     {
                                        "multiplier" : 0.30000001192092896,
-                                       "offset" : [ 121.04299926757813, 173 ],
+                                       "offset" : [ 121.04299926757812, 173 ],
                                        "offset-hash" : "PMRorW2MiwdFhaSt",
                                        "scale" : 2
                                     }
@@ -1983,13 +1982,13 @@
                                     "octaves" : [
                                        {
                                           "multiplier" : 0.69999998807907104,
-                                          "offset" : [ 431.04299926757813, 123 ],
+                                          "offset" : [ 431.04299926757812, 123 ],
                                           "offset-hash" : "Q1LFZaaSYzfSbPbs",
                                           "scale" : 1
                                        },
                                        {
                                           "multiplier" : 0.3020000159740448,
-                                          "offset" : [ 121.04299926757813, 173 ],
+                                          "offset" : [ 121.04299926757812, 173 ],
                                           "offset-hash" : "qnOogrdzcBNSxrOU",
                                           "scale" : 2
                                        },
@@ -2190,8 +2189,8 @@
                      "ci" : 3,
                      "rx" : 1,
                      "ry" : 0.23999999463558197,
-                     "x" : 0.51333332061767578,
-                     "y" : 0.022500000894069672
+                     "x" : 0.51138997077941895,
+                     "y" : 0.035568036139011383
                   },
                   "part" : {
                      "@collapsed" : false,
@@ -2543,7 +2542,7 @@
                            {
                               "clearance" : 0,
                               "constraintType" : [ "GRASS_VERDANT_BASE/SOIL_SILTY_BASE" ],
-                              "density" : -0.86800003051757813,
+                              "density" : -0.86800003051757812,
                               "depth" : 1,
                               "instance" : {
                                  "@collapsed" : false,
@@ -2824,13 +2823,13 @@
                                  "octaves" : [
                                     {
                                        "multiplier" : 0.69999998807907104,
-                                       "offset" : [ 431.04299926757813, 123 ],
+                                       "offset" : [ 431.04299926757812, 123 ],
                                        "offset-hash" : "wfiT7ig4bRv3MkET",
                                        "scale" : 1
                                     },
                                     {
                                        "multiplier" : 0.30000001192092896,
-                                       "offset" : [ 121.04299926757813, 173 ],
+                                       "offset" : [ 121.04299926757812, 173 ],
                                        "offset-hash" : "AHchoacBS9Pv8sCa",
                                        "scale" : 2
                                     }
@@ -3192,9 +3191,10 @@
       "links" : []
    },
    "generator" : {
+      "@version" : 6,
       "biomeSize" : 24,
       "lowerSea" : {
-         "level" : 16,
+         "level" : 0,
          "liquidType" : "WATER"
       },
       "sea" : {
@@ -3244,9 +3244,8 @@
          "@position" : [ 7932, 8160 ],
          "@toggle-test" : false,
          "@toggle-world" : true,
-         "@version" : 6,
+         "@version" : 7,
          "biome" : {
-            "@version" : 6,
             "fun" : {
                "@collapsed" : false,
                "@name" : "Pleasent Hills",
@@ -3269,8 +3268,8 @@
                   "@toggle-stage" : true,
                   "@toggle-threed" : false,
                   "@toggle-visualise" : true,
-                  "@x-name" : "altitude",
-                  "@y-name" : "vegetation",
+                  "@x-name" : "vegetation",
+                  "@y-name" : "altitude",
                   "caveSurfaceShrink" : {
                      "enabled" : false,
                      "value" : 0
@@ -3339,7 +3338,7 @@
                      "offset" : [ -230.49079895019531, 224.81109619140625, -315.7552490234375 ],
                      "offset-hash" : "2BFj2NJGRLCop2yR",
                      "reference" : "noise3d/DistortionStandard.json",
-                     "tick" : 1,
+                     "tick" : 2,
                      "type" : "reference"
                   },
                   "distortionStrength" : {
@@ -3821,13 +3820,13 @@
                                        "octaves" : [
                                           {
                                              "multiplier" : 0.69999998807907104,
-                                             "offset" : [ 431.04299926757813, 123 ],
+                                             "offset" : [ 431.04299926757812, 123 ],
                                              "offset-hash" : "wg0zL6YmUwditjpL",
                                              "scale" : 1
                                           },
                                           {
                                              "multiplier" : 0.30000001192092896,
-                                             "offset" : [ 121.04299926757813, 173 ],
+                                             "offset" : [ 121.04299926757812, 173 ],
                                              "offset-hash" : "QoqIJ55KQDmt5pbl",
                                              "scale" : 2
                                           }
@@ -4626,13 +4625,13 @@
                                        "octaves" : [
                                           {
                                              "multiplier" : 0.69999998807907104,
-                                             "offset" : [ 431.04299926757813, 123 ],
+                                             "offset" : [ 431.04299926757812, 123 ],
                                              "offset-hash" : "4koqJNASyUcebrjd",
                                              "scale" : 1
                                           },
                                           {
                                              "multiplier" : 0.30000001192092896,
-                                             "offset" : [ 121.04299926757813, 173 ],
+                                             "offset" : [ 121.04299926757812, 173 ],
                                              "offset-hash" : "PMRorW2MiwdFhaSt",
                                              "scale" : 2
                                           }
@@ -5220,13 +5219,13 @@
                                           "octaves" : [
                                              {
                                                 "multiplier" : 0.69999998807907104,
-                                                "offset" : [ 431.04299926757813, 123 ],
+                                                "offset" : [ 431.04299926757812, 123 ],
                                                 "offset-hash" : "Q1LFZaaSYzfSbPbs",
                                                 "scale" : 1
                                              },
                                              {
                                                 "multiplier" : 0.3020000159740448,
-                                                "offset" : [ 121.04299926757813, 173 ],
+                                                "offset" : [ 121.04299926757812, 173 ],
                                                 "offset-hash" : "qnOogrdzcBNSxrOU",
                                                 "scale" : 2
                                              },
@@ -5427,8 +5426,8 @@
                            "ci" : 3,
                            "rx" : 1,
                            "ry" : 0.23999999463558197,
-                           "x" : 0.51333332061767578,
-                           "y" : 0.022500000894069672
+                           "x" : 0.51138997077941895,
+                           "y" : 0.035568036139011383
                         },
                         "part" : {
                            "@collapsed" : false,
@@ -5780,7 +5779,7 @@
                                  {
                                     "clearance" : 0,
                                     "constraintType" : [ "GRASS_VERDANT_BASE/SOIL_SILTY_BASE" ],
-                                    "density" : -0.86800003051757813,
+                                    "density" : -0.86800003051757812,
                                     "depth" : 1,
                                     "instance" : {
                                        "@collapsed" : false,
@@ -6061,13 +6060,13 @@
                                        "octaves" : [
                                           {
                                              "multiplier" : 0.69999998807907104,
-                                             "offset" : [ 431.04299926757813, 123 ],
+                                             "offset" : [ 431.04299926757812, 123 ],
                                              "offset-hash" : "wfiT7ig4bRv3MkET",
                                              "scale" : 1
                                           },
                                           {
                                              "multiplier" : 0.30000001192092896,
-                                             "offset" : [ 121.04299926757813, 173 ],
+                                             "offset" : [ 121.04299926757812, 173 ],
                                              "offset-hash" : "AHchoacBS9Pv8sCa",
                                              "scale" : 2
                                           }
@@ -6429,9 +6428,10 @@
             "links" : []
          },
          "generator" : {
+            "@version" : 6,
             "biomeSize" : 24,
             "lowerSea" : {
-               "level" : 16,
+               "level" : 0,
                "liquidType" : "WATER"
             },
             "sea" : {

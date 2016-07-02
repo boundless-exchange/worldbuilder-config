@@ -3,13 +3,12 @@
    "@configType" : "BIOME",
    "@name" : "Beachy Ocean",
    "@position" : [ 7932, 8160 ],
-   "@scroll" : [ 10040.8251953125, 7310.4658203125, 1 ],
+   "@scroll" : [ 8961.5625, 8166.16552734375, -0.5 ],
    "@toggle-test" : true,
    "@toggle-world" : true,
    "@unlinked" : [],
-   "@version" : 6,
+   "@version" : 7,
    "biome" : {
-      "@version" : 6,
       "fun" : {
          "@collapsed" : false,
          "@name" : "Beachy Ocean",
@@ -584,7 +583,7 @@
                               "sliderValue" : 0.026000000536441803
                            }
                         ],
-                        "offset" : [ -241.84329223632813, 94.375633239746094 ],
+                        "offset" : [ -241.84329223632812, 94.375633239746094 ],
                         "offset-hash" : "sdafasdfadsfasd",
                         "reference" : "noise2d/HeightmapAngledHills.json",
                         "tick" : 4,
@@ -635,13 +634,13 @@
                                  "octaves" : [
                                     {
                                        "multiplier" : 0.69999998807907104,
-                                       "offset" : [ 431.04299926757813, 123 ],
+                                       "offset" : [ 431.04299926757812, 123 ],
                                        "offset-hash" : "Key5VTR3uDKKfUNc",
                                        "scale" : 1
                                     },
                                     {
                                        "multiplier" : 0.30000001192092896,
-                                       "offset" : [ 121.04299926757813, 173 ],
+                                       "offset" : [ 121.04299926757812, 173 ],
                                        "offset-hash" : "y3wNH1JyUSNiot3E",
                                        "scale" : 2
                                     }
@@ -896,9 +895,10 @@
       "links" : []
    },
    "generator" : {
+      "@version" : 6,
       "biomeSize" : 24,
       "lowerSea" : {
-         "level" : 16,
+         "level" : 0,
          "liquidType" : "WATER"
       },
       "sea" : {
@@ -948,9 +948,8 @@
          "@position" : [ 7932, 8160 ],
          "@toggle-test" : true,
          "@toggle-world" : true,
-         "@version" : 6,
+         "@version" : 7,
          "biome" : {
-            "@version" : 6,
             "fun" : {
                "@collapsed" : false,
                "@name" : "Beachy Ocean",
@@ -1525,7 +1524,7 @@
                                     "sliderValue" : 0.026000000536441803
                                  }
                               ],
-                              "offset" : [ -241.84329223632813, 94.375633239746094 ],
+                              "offset" : [ -241.84329223632812, 94.375633239746094 ],
                               "offset-hash" : "sdafasdfadsfasd",
                               "reference" : "noise2d/HeightmapAngledHills.json",
                               "tick" : 4,
@@ -1576,13 +1575,13 @@
                                        "octaves" : [
                                           {
                                              "multiplier" : 0.69999998807907104,
-                                             "offset" : [ 431.04299926757813, 123 ],
+                                             "offset" : [ 431.04299926757812, 123 ],
                                              "offset-hash" : "Key5VTR3uDKKfUNc",
                                              "scale" : 1
                                           },
                                           {
                                              "multiplier" : 0.30000001192092896,
-                                             "offset" : [ 121.04299926757813, 173 ],
+                                             "offset" : [ 121.04299926757812, 173 ],
                                              "offset-hash" : "y3wNH1JyUSNiot3E",
                                              "scale" : 2
                                           }
@@ -1837,9 +1836,10 @@
             "links" : []
          },
          "generator" : {
+            "@version" : 6,
             "biomeSize" : 24,
             "lowerSea" : {
-               "level" : 16,
+               "level" : 0,
                "liquidType" : "WATER"
             },
             "sea" : {

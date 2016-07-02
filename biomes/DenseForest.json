@@ -7,9 +7,8 @@
    "@toggle-test" : false,
    "@toggle-world" : true,
    "@unlinked" : [],
-   "@version" : 6,
+   "@version" : 7,
    "biome" : {
-      "@version" : 6,
       "fun" : {
          "@collapsed" : false,
          "@name" : "Dense Forest",
@@ -683,7 +682,7 @@
                                  "@name" : "Perlin 2D",
                                  "@position" : [ 9591, 12346 ],
                                  "frequency" : [ 1, 1 ],
-                                 "offset" : [ -147.40824890136719, -336.62783813476563 ],
+                                 "offset" : [ -147.40824890136719, -336.62783813476562 ],
                                  "offset-hash" : "w3y0ExqFY9sfgVVq",
                                  "type" : "perlin"
                               },
@@ -989,7 +988,7 @@
                      }
                   ],
                   "frequency" : [ 0.58500003814697266, 0.58500003814697266 ],
-                  "offset" : [ -298.03311157226563, -141.29594421386719 ],
+                  "offset" : [ -298.03311157226562, -141.29594421386719 ],
                   "offset-hash" : "1CMf4fzYdWsoYXSV",
                   "type" : "gabor"
                },
@@ -1018,7 +1017,7 @@
                      }
                   ],
                   "frequency" : [ 0.59800004959106445, 0.59800004959106445 ],
-                  "offset" : [ -298.03311157226563, -141.29594421386719 ],
+                  "offset" : [ -298.03311157226562, -141.29594421386719 ],
                   "offset-hash" : "1CMf4fzYdWsoYXSV",
                   "type" : "gabor"
                },
@@ -1034,9 +1033,10 @@
       "links" : []
    },
    "generator" : {
+      "@version" : 6,
       "biomeSize" : 8,
       "lowerSea" : {
-         "level" : 16,
+         "level" : 0,
          "liquidType" : "WATER"
       },
       "sea" : {
@@ -1086,9 +1086,8 @@
          "@position" : [ 7713, 7844 ],
          "@toggle-test" : false,
          "@toggle-world" : true,
-         "@version" : 6,
+         "@version" : 7,
          "biome" : {
-            "@version" : 6,
             "fun" : {
                "@collapsed" : false,
                "@name" : "Dense Forest",
@@ -1762,7 +1761,7 @@
                                        "@name" : "Perlin 2D",
                                        "@position" : [ 9591, 12346 ],
                                        "frequency" : [ 1, 1 ],
-                                       "offset" : [ -147.40824890136719, -336.62783813476563 ],
+                                       "offset" : [ -147.40824890136719, -336.62783813476562 ],
                                        "offset-hash" : "w3y0ExqFY9sfgVVq",
                                        "type" : "perlin"
                                     },
@@ -2068,7 +2067,7 @@
                            }
                         ],
                         "frequency" : [ 0.58500003814697266, 0.58500003814697266 ],
-                        "offset" : [ -298.03311157226563, -141.29594421386719 ],
+                        "offset" : [ -298.03311157226562, -141.29594421386719 ],
                         "offset-hash" : "1CMf4fzYdWsoYXSV",
                         "type" : "gabor"
                      },
@@ -2097,7 +2096,7 @@
                            }
                         ],
                         "frequency" : [ 0.59800004959106445, 0.59800004959106445 ],
-                        "offset" : [ -298.03311157226563, -141.29594421386719 ],
+                        "offset" : [ -298.03311157226562, -141.29594421386719 ],
                         "offset-hash" : "1CMf4fzYdWsoYXSV",
                         "type" : "gabor"
                      },
@@ -2113,9 +2112,10 @@
             "links" : []
          },
          "generator" : {
+            "@version" : 6,
             "biomeSize" : 8,
             "lowerSea" : {
-               "level" : 16,
+               "level" : 0,
                "liquidType" : "WATER"
             },
             "sea" : {

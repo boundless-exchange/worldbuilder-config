@@ -7,9 +7,8 @@
    "@toggle-test" : false,
    "@toggle-world" : false,
    "@unlinked" : [],
-   "@version" : 6,
+   "@version" : 7,
    "noise2d" : {
-      "@version" : 6,
       "fun" : {
          "@collapsed" : false,
          "@name" : "remap noise (2D)",
@@ -258,9 +257,8 @@
          "@position" : [ 7932, 8160 ],
          "@toggle-test" : false,
          "@toggle-world" : false,
-         "@version" : 6,
+         "@version" : 7,
          "noise2d" : {
-            "@version" : 6,
             "fun" : {
                "@collapsed" : false,
                "@name" : "remap noise (2D)",

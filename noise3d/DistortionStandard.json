@@ -3,13 +3,12 @@
    "@configType" : "NOISE3D",
    "@name" : "Distortion - Standard",
    "@position" : [ 7932, 8160 ],
-   "@scroll" : [ 8455.4521484375, 8244.982421875, -0.5 ],
+   "@scroll" : [ 8543.46875, 8261.6708984375, 0 ],
    "@toggle-test" : false,
    "@toggle-world" : false,
    "@unlinked" : [],
-   "@version" : 5,
+   "@version" : 7,
    "noise3d" : {
-      "@version" : 6,
       "fun" : {
          "@collapsed" : false,
          "@name" : "remap noise (3D)",
@@ -58,6 +57,8 @@
       },
       "links" : [
          {
+            "blockConstraint" : 0,
+            "blockDefault" : "",
             "checkDefault" : false,
             "linkPath" : [
                {
@@ -83,6 +84,8 @@
             "sliderStep" : 0.0010000000474974513
          },
          {
+            "blockConstraint" : 0,
+            "blockDefault" : "",
             "checkDefault" : true,
             "linkPath" : [
                {
@@ -111,7 +114,7 @@
    },
    "seed" : "I has a seed!",
    "sharedConfig" : {
-      "worldSize" : 128
+      "worldSize" : 192
    },
    "test" : {
       "@collapsed" : false,
@@ -124,9 +127,8 @@
          "@position" : [ 7932, 8160 ],
          "@toggle-test" : false,
          "@toggle-world" : false,
-         "@version" : 5,
+         "@version" : 7,
          "noise3d" : {
-            "@version" : 6,
             "fun" : {
                "@collapsed" : false,
                "@name" : "remap noise (3D)",
@@ -175,6 +177,8 @@
             },
             "links" : [
                {
+                  "blockConstraint" : 0,
+                  "blockDefault" : "",
                   "checkDefault" : false,
                   "linkPath" : [
                      {
@@ -200,6 +204,8 @@
                   "sliderStep" : 0.0010000000474974513
                },
                {
+                  "blockConstraint" : 0,
+                  "blockDefault" : "",
                   "checkDefault" : true,
                   "linkPath" : [
                      {
@@ -228,7 +234,7 @@
          },
          "seed" : "I has a seed!",
          "sharedConfig" : {
-            "worldSize" : 128
+            "worldSize" : 192
          },
          "test" : {
             "@collapsed" : false,

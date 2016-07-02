@@ -1,15 +1,14 @@
 {
    "@collapsed" : false,
    "@configType" : "NOISE2D",
-   "@name" : "Hightmap - Bumpy",
+   "@name" : "Heightmap - Bumpy",
    "@position" : [ 7901, 8082 ],
-   "@scroll" : [ 8062, 8209, 0 ],
+   "@version" : 7,
+   "@scroll" : [ 8239, 8238, 0 ],
    "@toggle-test" : false,
    "@toggle-world" : false,
    "@unlinked" : [],
-   "@version" : 5,
    "noise2d" : {
-      "@version" : 6,
       "fun" : {
          "@collapsed" : false,
          "@name" : "fractal noise (2D)",
@@ -50,7 +49,7 @@
    },
    "seed" : "I has a seed!",
    "sharedConfig" : {
-      "worldSize" : 128
+      "worldSize" : 192
    },
    "test" : {
       "@collapsed" : false,
@@ -59,13 +58,12 @@
       "embedded" : {
          "@collapsed" : false,
          "@configType" : "NOISE2D",
-         "@name" : "Hightmap - Bumpy",
+         "@name" : "Heightmap - Bumpy",
          "@position" : [ 7901, 8082 ],
          "@toggle-test" : false,
          "@toggle-world" : false,
-         "@version" : 5,
+         "@version" : 7,
          "noise2d" : {
-            "@version" : 6,
             "fun" : {
                "@collapsed" : false,
                "@name" : "fractal noise (2D)",
@@ -106,21 +104,21 @@
          },
          "seed" : "I has a seed!",
          "sharedConfig" : {
-            "worldSize" : 128
+            "worldSize" : 192
          },
          "test" : {
             "@collapsed" : false,
             "@name" : "Reference 2D",
             "@position" : [ 8208, 8314 ],
             "frequency" : [ 1, 1 ],
-            "offset" : [ -129.31715393066406, -340.92581176757813 ],
+            "offset" : [ -129.31715393066406, -340.92581176757812 ],
             "offset-hash" : "UHEqUhzmH6Dt0sNw",
             "type" : "reference"
          }
       },
       "frequency" : [ 1, 1 ],
       "links" : [],
-      "offset" : [ -129.31715393066406, -340.92581176757813 ],
+      "offset" : [ -129.31715393066406, -340.92581176757812 ],
       "offset-hash" : "UHEqUhzmH6Dt0sNw",
       "reference" : "",
       "tick" : 0,

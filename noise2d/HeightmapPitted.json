@@ -7,9 +7,8 @@
    "@toggle-test" : false,
    "@toggle-world" : false,
    "@unlinked" : [],
-   "@version" : 5,
+   "@version" : 7,
    "noise2d" : {
-      "@version" : 6,
       "fun" : {
          "@collapsed" : false,
          "@name" : "Fractal 2D",
@@ -144,7 +143,7 @@
    },
    "seed" : "I has a seed!",
    "sharedConfig" : {
-      "worldSize" : 128
+      "worldSize" : 192
    },
    "test" : {
       "@collapsed" : false,
@@ -157,9 +156,8 @@
          "@position" : [ 7932, 8160 ],
          "@toggle-test" : false,
          "@toggle-world" : false,
-         "@version" : 5,
+         "@version" : 7,
          "noise2d" : {
-            "@version" : 6,
             "fun" : {
                "@collapsed" : false,
                "@name" : "Fractal 2D",
@@ -294,7 +292,7 @@
          },
          "seed" : "I has a seed!",
          "sharedConfig" : {
-            "worldSize" : 128
+            "worldSize" : 192
          },
          "test" : {
             "@collapsed" : false,
